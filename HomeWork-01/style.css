@@ -13,17 +13,17 @@
     box-sizing: border-box;
 }
 
-.abc1{
+.abc1, .abc2{
    background-color: yellow;
    font-size: large;
    border: 2px solid black;
 }
 
-.abc2{
+/* .abc2{
     background-color: yellow;
     font-size: large;
     border: 2px solid black;
- }
+ } */
 
 .two{
     background-color: rgba(183, 20, 118, 0.908);
