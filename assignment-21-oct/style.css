@@ -3,17 +3,22 @@
     padding: 0;
 }
 .header{
+    position: fixed;
     background-color: #00ccff;
     color:white;
-    height: 60px;
+    height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .left{
     padding-left: 25px;
+    font-size: x-large;
+    font-weight: bold;
 }
 .middle{
     padding-left: 20px;
@@ -29,6 +34,7 @@ button:hover{
     border: none;
     font-size: larger;
     color: white;
+    margin-left: 10px;
     text-decoration: underline;
     text-decoration-color: rgb(196, 56, 79);
 }
@@ -38,6 +44,7 @@ button:hover{
     background-color: #00ccff;
     border: none;
     font-size: larger;
+    margin-left: 10px;
     color: rgb(196, 56, 79);
 }
 .d, .e{
@@ -57,7 +64,7 @@ button:hover{
 }
 .float{
     background-color: #ffccff;
-    height:385px;
+    height:400px;
     padding-left: 25px;
 }
 .abcd{
@@ -67,7 +74,7 @@ button:hover{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 150px;
     background-color: #ffccff;
 }
 .abc, .bcd, .cde{
@@ -86,6 +93,10 @@ button:hover{
     border-radius: 5px;
     border: 5px solid #0c89a8;
     background-color: #00ccff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .one{
     margin-top: 15px;
@@ -98,7 +109,11 @@ button:hover{
     margin-bottom: 5px;
     border-radius: 5px;
     border: 5px solid #880b43;
-    background-color: #e85405;   
+    background-color: #e85405;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
 }
 .four{
     margin-top: 15px;
@@ -109,15 +124,23 @@ button:hover{
     border-radius: 5px;
     border: 5px solid #0c89a8;
     background-color: #00ccff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .six{
-    /* float: left; */
+    
     margin-left: 170px;
     height: 75px;
     width: 75px;
     border-radius: 5px;
     border: 5px solid #0c89a8;
     background-color: #00ccff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .five{
     float: left;
@@ -128,6 +151,10 @@ button:hover{
     border-radius: 5px;
     border: 5px solid #880b43;
     background-color: #e85405;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .seven, .eight{
     margin-left: 170px;
@@ -136,6 +163,10 @@ button:hover{
     border-radius: 5px;
     border: 5px solid #0c89a8;
     background-color: #00ccff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .seven{
     margin-top: 15px;
@@ -153,17 +184,209 @@ button:hover{
     border-radius: 5px;
     border: 5px solid #880b43;
     background-color: #e85405;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .content{
-    height:500px;
+    height:800px;
+    position: relative;
+    padding-left: 25px;
+}
+.posi-two, .posi-three, .posi-four, .posi-five{
+    border: 3px solid rgb(196, 56, 79);
+    height: 300px;
+    width: 420px;
+    text-align: center;
+}   
+.posi-one{
+    font-size: larger;
+    position: absolute;
+    top: 8%;
+    left: 38%; 
+}
+.posi-two{
+position: absolute;
+left: 3%;
+top: 15%;
+}
+.posi-three{
+    position: absolute;
+    left: 34.5%;
+    top: 15%;
+}
+.posi-four{
+    position: absolute;
+    left: 66%;
+    top: 15%;
+}
+.posi-five{
+    position: absolute;
+    top: 56.5%;
+    left: 34.5%;
+}
+.mine, .ratan, .kalyani{
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+    border: 5px solid #880b43;
+    background-color: #e85405;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.my, .own, .raj, .ketan, .kiran, .sidhhu, .nita, .suku{
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+    border: 5px solid #0c89a8;
+    background-color: #00ccff;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.my, .raj, .nita, .suku{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+.mine, .kiran{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.own, .ketan, .sidhhu{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.ratan{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.kalyani{
+    position: absolute;
+    top: 35%;
+    left: 12%;
 }
 .flex{
     background-color: #ffff99;
-    height: 1000px;
+    height: 1650px;
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.item1, .item2, .item3, .item4{
+    height: 110px;
+    width: 130px;
+    background-color: aqua;
+    border: 5px solid rgb(6, 139, 139);
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+hr{
+    background-color: #880b43;
+    margin: 30px;
+}
+.kunal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 380px;
+    margin: 25px;
+}
+.it1{
+    height: 110px;
+    width: 130px;
+    background-color: aqua;
+    border: 5px solid rgb(6, 139, 139);
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display: flex;
+    flex-flow: row wrap;
+    height: 120px;
+    margin-top: 60px;
+    margin-left: 25x;
+    margin-right: 25px;
+}
+.item11, .item22, .item33, .item44, .item55{
+    height: 110px;
+    width: 130px;
+    background-color: aqua;
+    border: 5px solid rgb(6, 139, 139);
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.item33{
+    flex-grow: 1;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.item0{
+    height: 110px;
+    width: 130px;
+    background-color: aqua;
+    border: 5px solid rgb(6, 139, 139);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .footer{
     background-color: #00ccff;
-    color:white;
-    height: 45px; 
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.top{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    background-color: gold;
+    right:30px;
+    border-radius: 50%;
+    color: rgb(13, 4, 48);
+    text-align: center;
+    margin: 40PX;
+  }
+  a{
+    margin-right: 20px;
+
+  }
 
