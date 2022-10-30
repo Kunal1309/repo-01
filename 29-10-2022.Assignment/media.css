@@ -1,0 +1,261 @@
+
+@media only screen and (max-width: 900px){
+    .header, .content, .footer{
+        display: none;
+    }
+
+    .header-copy-900{
+        margin: 2% 2% 2% 2%;
+        display: grid;
+        grid-template-rows: auto auto;
+        border-bottom: 1px solid burlywood;
+    }
+    .header2-2-900{
+        width: 60vw;
+    margin: 2% 2% 2% 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .header1{
+        margin: 2% 2% 2% 2%;
+        display: grid;
+        grid-template-columns: auto auto;
+        border-bottom: 1px solid burlywood;
+    }
+    .header1-3{
+        width: 35%;
+        display: flex;
+        justify-content: space-between;
+       }
+    .header2{
+        margin: 2% 2% 2% 2%;
+    }
+    .header2-2{
+        padding-right: 2%;
+    }
+    .content-copy-900{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto auto auto;
+    }
+    .content1-900{
+        margin: 2% 2% 2% 2%;
+        background-image: url("banner-1.jpg");
+        border-radius: 10px;
+    }
+    input{
+        width: 62vw;
+        height: 5vh;
+        border: none;
+    }
+    .content2-img-900{
+       height: 15vh;
+       width: 20vw;
+    }
+    .content2-1-900{
+        margin: 2%;
+        width: 48vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        border: 5px solid burlywood;   
+        border-radius: 5px;
+    }
+    .content2-1-1-900{
+        margin: 10% 8% ;
+    }
+    .content2-1-1-2-900{
+        color: deeppink;
+    }
+    .content2-900{
+        margin: 2% 2% 2% 2%;
+        display: flex;
+        overflow: scroll;
+    }
+    .content4-900{
+        margin: 0% 2% 2% 2%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .content4-1-900{
+        margin: 5% 5% 10% 5%;   
+    }
+    .content4-1-1-900{
+        display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid burlywood;
+    border-radius: 10px;
+    margin-top: 7%;
+    }
+    
+    .content5-900{
+        margin: 1% 2% 1% 2%;
+    }
+
+    .content7-900{
+        margin: 1% 2% 2% 2%;
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+    .content7-img-900{
+        width: 80%;
+       height: 100%;
+       margin-left: 14%;
+    }
+    .content7-2-900{
+        height: 33vh;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        border: 2px solid burlywood;
+        border-radius: 10px;
+    }
+    .content7-2-1-900{
+        margin: 0% 15% 1% 43%;
+        font-weight: bold;
+    }
+    .content7-2-2-900{
+        margin: 0% 10% 1% 32%;
+        opacity: 0.7;
+    }
+    .content7-2-3-900{
+        margin: 0% 10% 0% 35%;
+        opacity: 0.8;   
+    }
+    .content7-2-4-900{
+    margin: 0% 10% 0% 23%;
+    }
+    .content7-0-900{
+        height: 210vh;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 0.5%;
+        column-gap: 3%;
+    }
+
+    .content8-900{
+    margin: 2% 2% 2% 2%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    }
+    .content8-img-900{
+        border: 5px solid burlywood;
+        border-radius: 50%;
+        height: 10%;
+        width: 13%;
+        margin: 2% 12% 1% 42%;
+    }
+    .alen{
+       margin-left: 17%;
+    }
+    .ceo{
+        margin-left: 25%;
+    }
+    .lorem{
+        margin-left: 22%;
+        margin-bottom: 3%;
+    }
+    .forex{
+        margin: 2% 10% 2% 16%;
+    }
+    .content8-2-900{
+        background-image: url("cta-banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 3%;
+        border-radius: 20px;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+    .content8-2-1-1-900{
+        padding: 1.5%;
+        margin: 10% 45% 1% 38%;
+        border-radius: 10px;
+        color: white;
+        background-color: black;
+    }
+    .content8-2-1-2-900{
+        margin-left: 40%;
+        margin-top: 1%;
+        font-size: larger;
+        margin-bottom: 5%;
+    }
+    .content8-3-1-900{
+        margin: 2% 2% 2% 2%;
+        border-bottom: 4px solid burlywood;
+    }
+    .content8-3-2-1-900{
+        width: 30%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .content8-3-2-900{
+        height: auto;
+        padding-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid burlywood;
+        border-radius: 10px;
+    }
+    .content9-900{
+        margin: 2% 2% 2% 2%;
+        display: flex;
+        overflow: scroll;
+    }
+    .content9-img-900{
+        width: 40vw;
+    }
+    .footer4-900{
+        display: flex;
+        flex-wrap: wrap;
+        height: 30%;
+        margin: 2%;
+    }
+    .footer2-900{
+    color: white;
+    opacity: 0.6;
+    margin: 2%;
+    padding-bottom: 3%;
+    border-bottom: 3px solid white;
+    font-size:x-large;
+    }
+
+    .footer-copy-900{
+        display: grid;
+        background-color: black;
+        color: white;
+        height: auto;
+        width: 100vw;
+        font-size: small;
+        padding-bottom: 3%;
+    border-bottom: 3px solid white;
+    }
+    .footer4-1-900, .footer4-2-900, .footer4-3-900, .footer4-4-900, .footer4-5-900, .footer4-6-900{
+        height: auto;
+        width: 30%;
+        padding-bottom: 2%;
+        font-size:x-large;
+    }
+    .footer5-900{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .image-900{
+        height: 3%;
+        width: 3%;
+        background-color: white;
+        opacity: 0.5;
+        border-radius: 3px;
+        margin: 3px;
+    }
+    .fixed{
+        margin: 2% 20% 0% 20%;
+        width: auto;
+        height: 20px;
+        position: fixed;
+        display: grid;
+        background-color: blue;
+    }
+}

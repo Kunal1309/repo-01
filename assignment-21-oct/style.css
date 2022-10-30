@@ -385,8 +385,13 @@ hr{
     text-align: center;
     margin: 40PX;
   }
-  a{
-    margin-right: 20px;
-
+  i{
+    margin: 10px;
   }
+  /* a{
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    color: #880b43;
+  } */
 
