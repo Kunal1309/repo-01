@@ -41,6 +41,7 @@
         grid-template-rows: auto auto auto auto auto auto auto;
     }
     .content1-900{
+        display: flex;
         margin: 2% 2% 2% 2%;
         background-image: url("banner-1.jpg");
         border-radius: 10px;
@@ -51,6 +52,7 @@
         border: none;
     }
     .content2-img-900{
+        display: flex;
        height: 15vh;
        width: 20vw;
     }
@@ -63,9 +65,11 @@
         border-radius: 5px;
     }
     .content2-1-1-900{
+        display: flex;
         margin: 10% 8% ;
     }
     .content2-1-1-2-900{
+        display: flex;
         color: deeppink;
     }
     .content2-900{
@@ -90,6 +94,7 @@
     }
     
     .content5-900{
+        display: grid;
         margin: 1% 2% 1% 2%;
     }
 
@@ -99,6 +104,7 @@
         grid-template-rows: auto auto;
     }
     .content7-img-900{
+        display: flex;
         width: 80%;
        height: 100%;
        margin-left: 14%;
@@ -111,21 +117,26 @@
         border-radius: 10px;
     }
     .content7-2-1-900{
+        display: flex;
         margin: 0% 15% 1% 43%;
         font-weight: bold;
     }
     .content7-2-2-900{
+        display: flex;
         margin: 0% 10% 1% 32%;
         opacity: 0.7;
     }
     .content7-2-3-900{
+        display: flex;
         margin: 0% 10% 0% 35%;
         opacity: 0.8;   
     }
     .content7-2-4-900{
+        display: flex;
     margin: 0% 10% 0% 23%;
     }
     .content7-0-900{
+        display: flex;
         height: 210vh;
         display: grid;
         grid-template-columns: auto auto;
@@ -139,6 +150,7 @@
     grid-template-rows: auto auto auto;
     }
     .content8-img-900{
+        display: flex;
         border: 5px solid burlywood;
         border-radius: 50%;
         height: 10%;
@@ -146,19 +158,24 @@
         margin: 2% 12% 1% 42%;
     }
     .alen{
+        display: flex;
        margin-left: 17%;
     }
     .ceo{
+        display: flex;
         margin-left: 25%;
     }
     .lorem{
+        display: flex;
         margin-left: 22%;
         margin-bottom: 3%;
     }
     .forex{
+        display: flex;
         margin: 2% 10% 2% 16%;
     }
     .content8-2-900{
+        display: flex;
         background-image: url("cta-banner.jpg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -169,6 +186,7 @@
         margin-top: 2%;
     }
     .content8-2-1-1-900{
+        display: flex;
         padding: 1.5%;
         margin: 10% 45% 1% 38%;
         border-radius: 10px;
@@ -176,16 +194,19 @@
         background-color: black;
     }
     .content8-2-1-2-900{
+        display: flex;
         margin-left: 40%;
         margin-top: 1%;
         font-size: larger;
         margin-bottom: 5%;
     }
     .content8-3-1-900{
+        display: flex;
         margin: 2% 2% 2% 2%;
         border-bottom: 4px solid burlywood;
     }
     .content8-3-2-1-900{
+        display: flex;
         width: 30%;
         display: grid;
         grid-template-columns: auto auto;
@@ -204,6 +225,7 @@
         overflow: scroll;
     }
     .content9-img-900{
+        display: flex;
         width: 40vw;
     }
     .footer4-900{
@@ -213,6 +235,7 @@
         margin: 2%;
     }
     .footer2-900{
+        display: grid;
     color: white;
     opacity: 0.6;
     margin: 2%;
@@ -232,17 +255,19 @@
     border-bottom: 3px solid white;
     }
     .footer4-1-900, .footer4-2-900, .footer4-3-900, .footer4-4-900, .footer4-5-900, .footer4-6-900{
+        display: grid;
         height: auto;
         width: 30%;
         padding-bottom: 2%;
         font-size:x-large;
     }
     .footer5-900{
-     display: flex;
+     display: grid;
     justify-content: center;
     align-items: center;
     }
     .image-900{
+        display: grid;
         height: 3%;
         width: 3%;
         background-color: white;
