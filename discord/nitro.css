@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#nitro-header{
+    background-image: url("header\ img.svg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.nitroHeaderSec{
+    width: 24%;
+    margin-bottom: 20vh;
+    color: white;
+}
+.nitroUnleash{
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family:Arial;
+    margin-bottom: 5%;
+}
+.nitroInfo{
+    font-size: 1.3rem;
+    margin-top: 0%;
+}
+.nitroHeaderImg{
+    height: 70%;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25vh;
+    animation: kunal 10s ease-in-out 0 infinite reverse forwards;
+}
+@keyframes kunal{
+    from{
+        /* margin-bottom: 25vh; */
+        width: 100%;
+    }
+    to{
+        /* margin-bottom: 30vh; */
+        width: 90%;
+    }
+}
+.nitroSubscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 7vw;
+    top: 75vh;
+    position: absolute;
+}
+.nitroBasicSec, .nitroSec{
+    width: 41vw;
+    height: 55vh;
+    border: none;
+    border-radius: 10px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.nitroSec{
+    background-image: linear-gradient(to bottom right, rgb(149, 0, 255), rgb(255, 0, 212));
+}
+.nitroBasicSec{
+    background-color: #5865f2;
+}
+.nitroBasicHeading, .nitroHeading{
+    margin-left: 2vw;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+.offerSpecification{
+    margin-left: 2vw;
+    font-size: 1.2rem;
+}
+#nitro-basic-btn, #nitro-btn{
+    width: 90%;
+    height: 13%;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 5%;
+    border: none;
+}
+#nitro-basic-btn{
+    margin-top: 25%;
+}
+#nitro-btn{
+    margin-top: 5%;
+}
+.nitroPerks{
+    width: 89vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 43vh;
+    margin-left: 5vw;
+    position: relative;
+}
+.perksSecContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nitroPerksHeading{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.perksSec{
+    width: 46%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 240, 240);
+    border-radius: 10px;
+    padding-bottom: 3%;
+}
+.perksSecPas{
+    width: 70%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perksBtn{
+    width: 15vw;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 50px;
+    margin-top: 3%;
+    background-color: rgb(13, 12, 12);
+    color: whitesmoke;
+}
+#nitro-offer-plans{
+    width: 83vw;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.offerPlanHeading{
+    font-size: 3rem;
+    font-weight: 800;
+    width: 35vw;
+}
+.nitroTable{
+    width: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+}
+.nitroTablelight, .nitroTableDark, .nitroTableTd, th{
+    border-bottom: 1px solid rgb(128,128,128,.5);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 1.3rem;
+}
+.nitroTablelight{
+    opacity: 0.4;
+    text-align: center;
+}
+.nitroTableDark{
+    font-weight: bold;
+    text-align: center;
+}
+#nitro-table-btn, #nitro-table-btn-two{
+    width: 10vw;
+    height: 5vh;
+    margin-left: 20%;
+    background-color: #5865f2;
+    border-radius: 50px;
+    border: none;
+}
+.nitroTableBtnBorder, #nitro-table-btn-two{
+    border-left: 4px solid rgb(247, 0, 255);
+    border-right: 4px solid rgb(247, 0, 255);
+    border-collapse: collapse;
+}
+.nitroTableBtnSub{
+    border-bottom: 4px solid rgb(247, 0, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-collapse: collapse;
+}
+#nitro-th-three{
+    border-left: 4px solid rgb(247, 0, 255);
+    border-right: 4px solid rgb(247, 0, 255);
+    border-top: 4px solid rgb(247, 0, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+th span{
+    font-size: medium;
+}
+th i{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.nitroQuestionareSec{
+    width: 83vw;
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nitroQuestionareSecHeading{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.nitroQuestionareLinkSec{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.nitroQuestionareLink{
+   text-decoration: none;
+   color: gray;
+}
+.nitroQue{
+    
+    margin: 1%;
+    padding: 2% 1%;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
+.nitroQue::after{
+    content: '+';
+    position: absolute;
+    right: 10%;
+}
+.nitroAns{
+    height: 0px;
+    overflow: hidden;
+}
+.nitroEndSec{
+    background-image: linear-gradient(to  right bottom, rgb(162, 0, 255), rgb(255, 0, 212));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15vw;
+}
+.nitroEnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+.nitroEndHeading{
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+}
+.nitroEndBtn{
+    width: 15vw;
+    border: none;
+    border-radius: 50px;
+    font-size: x-large;
+    padding: 3%;
+    margin-top: 3vw;
+}
